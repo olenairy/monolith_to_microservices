@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-app-feed
+  labels:
+    app: my-app-feed
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: my-app-feed
+  template:
+    metadata:
+      labels:
+        app: my-app-feed
+    spec:
+      containers:
+      - name: feed-api
+        image: olenairy/feed-api
+        ports:
+        - containerPort: 80
+
+
