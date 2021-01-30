@@ -2,3 +2,4 @@ node_modules
 npm-debug.log
 deploy
 www
+monolith_to_microservices
