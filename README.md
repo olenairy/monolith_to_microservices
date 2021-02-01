@@ -1,5 +1,27 @@
 # Udagram Image Filtering Application
 
+Student: Olena Chudnovets
+Course: Cloud Developer
+Project: Refactor Monolith to Microservices 
+Data: February 1 2021
+
+
+Git repository: 
+
+Start project:
+https://github.com/olenairy/monolith_to_microservices.git
+
+After split: 
+https://github.com/olenairy/feed-api.git
+https://github.com/olenairy/user-api.git
+https://github.com/olenairy/reverse-proxy.git
+https://github.com/olenairy/udagram-frontend.git
+
+
+
+Note:I fix my error in file and redeployed docker image to Travis. 
+What way to update my projects after deployment my project to Kubernetes cluster? 
+
 Udagram is a simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.
 
 The project is split into two parts:
