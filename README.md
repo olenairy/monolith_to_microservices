@@ -1,10 +1,5 @@
 # Udagram Image Filtering Application
 
-Student: Olena Chudnovets
-Course: Cloud Developer
-Project: Refactor Monolith to Microservices 
-Data: February 1 2021
-
 
 Git repository: 
 
